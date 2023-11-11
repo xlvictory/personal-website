@@ -1,137 +1,144 @@
+@media screen(max-width: 1068px) {
+}
+
 body {
     background-color: #5e0808 !important;
 }
+
 h2 {
-    text-transform:uppercase;
-    font-size:15px;
-    font-weight:900;
-    letter-spacing:2px;
-    text-align:center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
     text-decoration: line-through;
 }
-.topleft{
-    background-color:white;
-    position:absolute;
-    padding:10px;
-    margin-top:10px;
-    border:3px solid black;
-    width:170px;  
-    height:170px;
-    display:inline-block;
-    text-align:center;
-    overflow-y:auto;
-    overflow-x:hidden;
+
+.topleft {
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
     top: 50%;
     left: 50%
-}  
- 
+}
+
 .topcenter {
-    background-color:white;
-    padding:10px;
-    margin-top:10px;
-    border:3px solid black;
-    width:170px;
-    margin-left:205px;
-    display:inline-block;
-    position:absolute;
-    height:170px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+    width: 170px;
+    margin-left: 205px;
+    display: inline-block;
+    position: absolute;
+    height: 170px;
     top: 50%;
     left: 50%
 }
- 
+
 .topcenter img {
-    width:150px;
-    height:150px;
-    padding:10px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
 }
+
 .src {
-    font-weight:bold;
-    text-transform:lowercase;
-    font-style:italic;
-    text-shadow:1px 1px 1px red;
-    font-size:11px;
-    text-align:center;
-    padding-top:5px;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-style: italic;
+    text-shadow: 1px 1px 1px red;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 5px;
 }
- 
+
 .topright {
-    background-color:white;
-    padding:10px;
-    margin-top:10px;
-    border:3px solid black;
-    margin-left:410px;
-    display:inline-block;
-    width:170px;
-    height:170px;
-    position:absolute;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+    margin-left: 410px;
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    position: absolute;
     font-size: 10px;
     top: 50%;
     left: 50%
 }
- 
+
 .category {
     color: red;
-    text-transform:uppercase;
-    font-size:8px;
-    display:block;
-    font-weight:700;
-    line-height:18px;
+    text-transform: uppercase;
+    font-size: 8px;
+    display: block;
+    font-weight: 700;
+    line-height: 18px;
 }
- 
+
 .response {
-    font-weight:300;
-    font-size:10px;
-    line-height:18px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 18px;
 }
- 
+
 .q {
-    display:block;
-    text-align:center;
-    font-weight:300;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    line-height:180%;
-    padding-top:15px;
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 180%;
+    padding-top: 15px;
 }
- 
+
 .m {
-    padding:5px;
-    font-weight:900;
+    padding: 5px;
+    font-weight: 900;
 }
+
 .bio {
-    display:block;
-    padding:25px;
-    background-color:#fff;
-    border:3px solid black;
-    margin-top:15px;
-    font-weight:300;
-    font-size:11px;
-    line-height:20px;
+    display: block;
+    padding: 25px;
+    background-color: #fff;
+    border: 3px solid black;
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 20px;
 }
- 
+
 .bio h1 {
-    text-align:center;
-    background-color:#fff;
-    color:#000;
-    border:none;
-    padding:10px 0px;
-    font-weight:bold;
-    text-transform:uppercase;
-    font-size:15px;
-    font-weight:900;
-    letter-spacing:2px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 2px;
     text-decoration: line-through;
 }
 
 .icons {
     height: 50px;
     width: 50px;
-    
+
 }
 
 footer {
-   background: rgba(255, 255, 255, 0.8);
-    border:3px dashed black;
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px dashed black;
     text-align: center;
     margin-left: 10px;
     padding: 10px;
@@ -141,6 +148,7 @@ footer {
     bottom: 0;
     width: 95%;
 }
+
 a {
     color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -152,8 +160,9 @@ nav {
     font-size: 20px;
     display: block;
 }
+
 .menu {
-    position:fixed;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     border: 3px dashed black;
@@ -172,11 +181,12 @@ nav {
 }
 
 #topboxes {
-position: absolute;
-margin-left: 25vw;
-margin-top: 100px;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 100px;
 
 }
+
 #biobox {
     position: absolute;
     margin-top: 300px;
