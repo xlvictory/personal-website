@@ -1,3 +1,89 @@
+@media screen(max-width: 1068px) {
+}
+
 body {
-    background-color: pink;
+    background-color: pink !important;
+}
+a {
+    color: #70b7f6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    font-size: 20px;
+    display: block;
+}
+.menu {
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid #B3CEE5;
+    background: rgba(222, 222, 222, 0.8);
+    padding: 10px;
+    width: 95vw;
+    margin: 10px;
+}
+
+.pageheader {
+    color: #70b7f6;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.project1 {
+    display: inline-flex;
+    border: 3px solid #B3CEE5;
+    padding: 10px;
+    background-color:rgba(222, 222, 222);
+}
+#painting {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+}
+.project2 {
+    display: inline-flex;
+    border: 3px solid #B3CEE5;
+    padding: 10px;
+    background-color:rgba(222, 222, 222);
+}
+#makeup {
+    height: 300px;
+    width: 450px;
+    padding:10px;
+}
+.project3 {
+    display: inline-flex;
+    border: 3px solid #B3CEE5;
+    padding: 10px;
+    background-color:rgba(222, 222, 222);
+}
+
+iframe {
+    padding: 10px;
+}
+
+div {
+    margin: 20px;
+}
+
+
+.icons {
+    height: 50px;
+    width: 50px;
+    
+}
+footer {
+    background: rgba(222, 222, 222, 0.8);
+     border:5px solid #B3CEE5;
+     text-align: center;
+     margin: 50px;
+     padding: 10px;
+     font-style: italic;
+ }
+section {
+    padding-top: 100px;
 }
