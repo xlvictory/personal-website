@@ -191,5 +191,10 @@ nav {
     position: absolute;
     margin-top: 300px;
     margin-right: 5px;
-    margin-bottom: 500px;
+    margin-bottom: 300px;
+}
+
+.pls {
+    height: 100px;
+    background-color: #5e0808;
 }
